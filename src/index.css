@@ -81,3 +81,21 @@ textarea:focus {
   margin-left: 0.5rem;
 }
 
+.title-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: #fff;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.quote {
+  font-size: 2.5rem;
+  font-style: italic;
+  max-width: 800px;
+}
+
