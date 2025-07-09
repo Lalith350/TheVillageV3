@@ -1,6 +1,19 @@
 import React, { useState } from "react";
 import "./index.css";
 
+import React from 'react';
+import './App.css'; // Make sure this path is correct
+
+function App() {
+  return (
+    <div className="title-screen">
+      <h1 className="quote">“Just listen to more music”</h1>
+    </div>
+  );
+}
+
+export default App;
+
 function App() {
   const [suggestions, setSuggestions] = useState([
     { name: "Taylor", timestamp: "2025-07-08 2:30PM", text: "Watch *Queen’s Gambit* if you love smart drama." },
