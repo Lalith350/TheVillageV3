@@ -1,3 +1,16 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+.app {
+  background-color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
 body, html {
   margin: 0;
   padding: 0;
